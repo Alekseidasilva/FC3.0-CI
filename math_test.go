@@ -8,3 +8,5 @@ func TestSoma(t *testing.T) {
 		t.Errorf("Resultado da soma é invalido: resultado%d. esperado: %d", total, 30)
 	}
 }
+
+//Fazendo github actions não passar
