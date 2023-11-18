@@ -24,12 +24,11 @@ jobs:
 
        #Fazer o build do Docker
      - name: Set up Docker Buildx
-       uses: docker/setup-buildx-action@v3
+       uses: docker/setup-buildx-action@v1
 
      - name: Build and push
        id: docker_build
-       uses: docker/build-push-action@v5
+       uses: docker/build-push-action@v1
        with:
           push: false
-          tags: Alekseidasilva/FC3.0-CI:latest
-          
+          tags: alekseidasilva/fc3.0-ci:latest
